@@ -13,7 +13,7 @@ export default function Home() {
           <Link className="Button mb-15" href={'/laba4'}>Laba 4</Link>
           <Link className="Button mb-15" href={'/laba5'}>Laba 5</Link>
           <Link className="Button mb-15" href={'/laba6'}>Laba 6</Link>
-          <Link className="Button mb-15" href={'/1'}>Laba 7</Link>
+          <Link className="Button mb-15" href={'/laba7'}>Laba 7</Link>
           <Link className="Button mb-15" href={'/1'}>Laba 8</Link>
           <Link className="Button mb-15" href={'/1'}>Laba 9</Link>
           <Link className="Button mb-15" href={'/1'}>Laba 10</Link>
