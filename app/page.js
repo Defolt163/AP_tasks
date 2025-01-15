@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button"
+
 import Link from "next/link";
 
 
@@ -15,7 +15,7 @@ export default function Home() {
           <Link className="Button mb-15" href={'/laba6'}>Laba 6</Link>
           <Link className="Button mb-15" href={'/laba7'}>Laba 7</Link>
           <Link className="Button mb-15" href={'/1'}>Laba 8</Link>
-          <Link className="Button mb-15" href={'/1'}>Laba 9</Link>
+          <Link className="Button mb-15" href={'/laba9'}>Laba 9</Link>
           <Link className="Button mb-15" href={'/1'}>Laba 10</Link>
         </div>
       </div>

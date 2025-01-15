@@ -1,0 +1,31 @@
+1.
+POST http://localhost:3000/api/hash
+{
+  "algorithm": "sha256",
+  "data": "Hello World"
+}
+
+2.
+POST http://localhost:3000/api/symmetric
+{
+  "action": "encrypt",
+  "data": "Secret Message",
+  "key": "882486e82a28562dd9bf33024a70983230662e851d6e9c2013f6726cb9fafe75"
+}
+
+{
+  "action": "decrypt",
+  "data": "dGVzdF92YWx1ZQ==:cGFyYWxz",
+  "key": "882486e82a28562dd9bf33024a70983230662e851d6e9c2013f6726cb9fafe75"
+}
+
+
+3.
+POST http://localhost:3000/api/asymmetric
+{
+  "action": "generate"
+}
+{
+  "action": "sign",
+  "message": "Confidential"
+}
